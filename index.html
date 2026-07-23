@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Home — Eswarvikram E</title>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Nunito+Sans:wght@300;400;600&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+<script>try{if(localStorage.getItem('theme')==='dark')document.body.classList.add('dark-mode');}catch(e){}</script>
+
+<!-- ── NAV ── -->
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="nav-brand">Eswarvikram E</a>
+    <div class="nav-actions">
+      <div class="nav-links" id="navLinks">
+        <a href="index.html" data-page="index.html">Home</a>
+        <a href="research.html" data-page="research.html">Research</a>
+        <a href="education.html" data-page="education.html">Education</a>
+        <a href="experience.html" data-page="experience.html">Experience</a>
+        <a href="projects.html" data-page="projects.html">Projects</a>
+        <a href="publications.html" data-page="publications.html">Publications</a>
+        <a href="gallery.html" data-page="gallery.html">Gallery</a>
+      </div>
+      <button class="nav-menu-btn" id="menuBtn" onclick="toggleMenu()" aria-label="Toggle menu">☰</button>
+      <button class="theme-toggle" type="button" aria-label="Switch to dark mode" title="Toggle dark mode">☾</button>
+    </div>
+  </div>
+</nav>
+
+<div class="page">
+  <!-- HERO / ABOUT -->
+  <div class="hero">
+    <div class="hero-photo">
+      <div class="photo-frame">
+  <img src="photo.jpg" alt="Eswarvikram E"
+       onerror="this.outerHTML='<div class=&quot;photo-placeholder&quot;>EE</div>'">
+</div>
+      <div class="social-links">
+        <a href="mailto:eswarvikram.e@gmail.com" class="social-link si-email">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+          Email
+        </a>
+        <a href="https://github.com/eswarvikram-e" class="social-link si-gh" target="_blank">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.37.5 0 5.87 0 12.5c0 5.3 3.44 9.8 8.21 11.39.6.11.82-.26.82-.58 0-.29-.01-1.05-.02-2.06-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.09-.75.08-.73.08-.73 1.21.09 1.84 1.24 1.84 1.24 1.07 1.84 2.81 1.31 3.5 1 .11-.78.42-1.31.76-1.61-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.12-.3-.54-1.52.12-3.17 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.65.24 2.87.12 3.17.77.84 1.23 1.91 1.23 3.22 0 4.61-2.81 5.62-5.49 5.92.43.37.81 1.1.81 2.22 0 1.61-.01 2.9-.01 3.29 0 .32.22.7.83.58A12 12 0 0 0 24 12.5C24 5.87 18.63.5 12 .5z"/></svg>
+          GitHub
+        </a>
+        <a href="https://linkedin.com/in/eswarvikram" class="social-link si-li" target="_blank">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.13 1.45-2.13 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.55V9h3.57v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg>
+          LinkedIn
+        </a>
+        <a href="https://scholar.google.com/citations?hl=en&user=inQDjZsAAAAJ" class="social-link si-gs" target="_blank">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm0-24L0 9.5l4.84 3.77A8 8 0 0 1 12 9a8 8 0 0 1 7.16 4.27L24 9.5 12 0z"/></svg>
+          Google Scholar
+        </a>
+        <a href="https://orcid.org/0009-0003-9742-1492" class="social-link si-orcid" target="_blank">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9 8.5v7"/><circle cx="9" cy="6.2" r=".4" fill="currentColor"/><path d="M12.6 8.5v7h2.1a3.5 3.5 0 0 0 0-7z"/></svg>
+          ORCID
+        </a>
+        <a href="Eswarvikram_cv.pdf" class="social-link si-cv" target="_blank" download>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M9 13h6M9 17h6"/></svg>
+          Curriculum Vitae
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-bio">
+      <h1>Eswarvikram E</h1>
+      <p class="hero-role">
+        PhD Student ·
+        <a href="https://www.civil.iitb.ac.in/" target="_blank">Department of Civil Engineering</a>,
+        <a href="https://www.iitb.ac.in/" target="_blank">Indian Institute of Technology Bombay</a><br>
+        Mumbai, India &nbsp;·&nbsp; <a href="mailto:eswarvikram.e@gmail.com">eswarvikram.e@gmail.com</a> / <a href="mailto:eswarvikram@iitb.ac.in">eswarvikram@iitb.ac.in</a>
+      </p>
+
+      <div class="hero-keywords">
+        <span class="kw">Hydrology</span>
+        <span class="kw">Satellite Remote Sensing</span>
+        <span class="kw">Data Analysis</span>
+        <span class="kw">Water Quality Modelling</span>
+      </div>
+
+      <p>
+        Welcome! I am a PhD Student in the
+        <a href="https://www.civil.iitb.ac.in/" target="_blank">Department of Civil Engineering</a> at the
+        <a href="https://www.iitb.ac.in/" target="_blank">Indian Institute of Technology Bombay</a>. My research focuses on
+        the relationship between rainfall and temperature, satellite remote sensing, SAR for soil-quality studies, and water-quality modelling.
+      </p>
+      <p>
+        I completed my <strong>Master of Engineering in Irrigation Water Management</strong> at the
+        Centre for Water Resources, Anna University, Chennai, and my <strong>Bachelor of Engineering in Civil Engineering</strong> at
+        Coimbatore Institute of Technology, Coimbatore.
+      </p>
+      <p>
+        Use the navigation above to explore my <a href="research.html">research interests</a>,
+        <a href="education.html">education</a>, <a href="experience.html">experience</a>,
+        <a href="projects.html">projects</a>, <a href="publications.html">publications</a>, and
+        <a href="gallery.html">life beyond the lab</a>.
+      </p>
+    </div>
+  </div>
+
+  <h2 class="subhead first">Latest</h2>
+  <table class="news-table">
+    <tr>
+      <td class="news-date">July 2026</td>
+      <td class="news-text">
+        <span class="badge badge-new">New</span>
+        Joined the <a href="https://www.civil.iitb.ac.in/" target="_blank">Department of Civil Engineering, IIT Bombay</a> as a PhD Student.
+      </td>
+    </tr>
+    <tr>
+      <td class="news-date">Feb 2026</td>
+      <td class="news-text">
+        <span class="badge badge-new">New</span>
+        Joined the <a href="https://www.civil.iitb.ac.in/" target="_blank">Department of Civil Engineering, IIT Bombay</a> as a Project Associate I.
+      </td>
+    </tr>
+    <tr>
+      <td class="news-date">June 2025</td>
+      <td class="news-text">
+        <span class="badge badge-pub">Publication</span>
+        New paper in <em>Advances in Space Research</em> evaluating Sentinel-2 and Landsat-9 for water-quality retrieval over Indian reservoirs.
+      </td>
+    </tr>
+  </table>
+</div><!-- /page -->
+
+<footer class="footer">
+  © 2026 <strong>Eswarvikram E</strong>. Hosted on
+  <a href="https://pages.github.com" target="_blank">GitHub Pages</a>.
+  Last updated: June 2026.
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Projects — Eswarvikram E</title>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Nunito+Sans:wght@300;400;600&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+<script>try{if(localStorage.getItem('theme')==='dark')document.body.classList.add('dark-mode');}catch(e){}</script>
+
+<!-- ── NAV ── -->
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="nav-brand">Eswarvikram E</a>
+    <div class="nav-actions">
+      <div class="nav-links" id="navLinks">
+        <a href="index.html" data-page="index.html">Home</a>
+        <a href="research.html" data-page="research.html">Research</a>
+        <a href="education.html" data-page="education.html">Education</a>
+        <a href="experience.html" data-page="experience.html">Experience</a>
+        <a href="projects.html" data-page="projects.html">Projects</a>
+        <a href="publications.html" data-page="publications.html">Publications</a>
+        <a href="gallery.html" data-page="gallery.html">Gallery</a>
+      </div>
+      <button class="nav-menu-btn" id="menuBtn" onclick="toggleMenu()" aria-label="Toggle menu">☰</button>
+      <button class="theme-toggle" type="button" aria-label="Switch to dark mode" title="Toggle dark mode">☾</button>
+    </div>
+  </div>
+</nav>
+
+<div class="page">
+  <header class="page-head">
+    <h1>Projects</h1>
+    <p class="page-sub">Selected research projects in remote sensing, water quality, and soil science.</p>
+  </header>
+  <div class="proj-grid">
+
+    <div class="proj-card">
+      <div class="proj-name">Quantitative retrieval and spatiotemporal analysis of soil quality parameters using geospatial datasets and machine learning techniques in Western Plains and Ghat regions of Karnataka</div>
+      <ul class="proj-points">
+        <li>Worked on multi-sensor integration for soil quality retrieval, focusing on Soil Electrical Conductivity (EC) and Soil Organic Carbon (SOC) modelling.</li>
+        <li>Developed a data fusion model combining in-situ soil measurements, remote sensing data, topographic variables, and hydrometeorological parameters.</li>
+        <li>Mapped soil organic carbon using Sentinel-1 SAR data and automated processing workflows in SNAP.</li>
+      </ul>
+      <div class="proj-tags">
+        <span class="proj-tag">Python</span>
+        <span class="proj-tag">Machine Learning</span>
+        <span class="proj-tag">GIS</span>
+      </div>
+      <div class="proj-links">
+        <a href="https://github.com/eswarvikram-e" target="_blank">GitHub</a>
+      </div>
+    </div>
+
+    <div class="proj-card">
+      <div class="proj-name">A comparative analysis of Sentinel-2 and Landsat-9 sensors for water quality retrieval in mesotrophic and hypereutrophic reservoirs in India</div>
+      <ul class="proj-points">
+        <li>Studied Bhavanisagar and Krishnagiri reservoirs using Landsat-9 and Sentinel-2 imagery.</li>
+        <li>Extracted surface reflectance data using Google Earth Engine.</li>
+        <li>Correlated band reflectance values with optical water quality parameters including Chlorophyll-a, EC, and TDS.</li>
+      </ul>
+      <div class="proj-tags">
+        <span class="proj-tag">Python</span>
+        <span class="proj-tag">Google Earth Engine</span>
+        <span class="proj-tag">Statistics</span>
+      </div>
+      <div class="proj-links">
+        <a href="https://doi.org/10.1016/j.asr.2025.03.042" target="_blank">Paper</a>
+      </div>
+    </div>
+
+    <div class="proj-card">
+      <div class="proj-name">Evaluation of water quality retrieval equations using multispectral remote sensing imageries in Bhavanisagar Reservoir</div>
+      <ul class="proj-points">
+        <li>Monitored optically active water quality parameters in Bhavanisagar Reservoir using in-situ measurements.</li>
+        <li>Compared retrieval performance from Landsat-9 OLI-2 and Sentinel-2 MSI data.</li>
+        <li>Used Google Earth Engine for image processing and surface reflectance extraction.</li>
+        <li>Identified Sentinel-2 as the stronger option for higher-spatial-resolution water quality assessment.</li>
+      </ul>
+      <div class="proj-tags">
+        <span class="proj-tag">Python</span>
+        <span class="proj-tag">Laboratory Analysis</span>
+        <span class="proj-tag">Water Quality</span>
+      </div>
+      <div class="proj-links">
+        <a href="https://github.com/eswarvikram-e" target="_blank">GitHub</a>
+      </div>
+    </div>
+
+  </div>
+</div><!-- /page -->
+
+<footer class="footer">
+  © 2026 <strong>Eswarvikram E</strong>. Hosted on
+  <a href="https://pages.github.com" target="_blank">GitHub Pages</a>.
+  Last updated: June 2026.
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
